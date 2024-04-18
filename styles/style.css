@@ -82,14 +82,31 @@ right: 800px;
     background-color: var(--black);
 
 }
-.inputk input{
+
+.input input{
     border: none;
     outline: none;
-    border-radius: 8px;
+    border-radius: 7px;
 }
-.inputk button{
+.input button{
     background-color: var(--orange);
     color: var(--white);
     border: none;  
     border-radius: 7px;
+}
+
+.s ul{
+    list-style-type: none;
+    margin-top: 25px;
+}
+.s li{
+margin-top: 5px;
+}
+.s a{
+    color: var(--white);
+
+    text-decoration: none;
+}
+.s p{
+font-size: 16px;
 }
