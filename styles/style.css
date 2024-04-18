@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+/* 1. don't modify this style */
+
+:root {
+    /* --"somekey-attr": "somevalue" i.e : */
+    --black-700: #000;
+    --black:rgb(7,7,7);
+    --orange:rgb(250, 131, 5);
+    --white:white;
+    --primary:rgb(81, 65, 170);
+    --few:rgb(59, 42, 159);
+    --purple:rgb(44,18,37);
+  
+  }
+  *{
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins";
+  
+}
+a{
+    text-decoration: none;
+    color: var(--white);
+}
+body{
+    background-color: var(--few);  
+    color: var(--white);
+}
+#s1{
+    background-color: var(--orange);
+}
+#s2{
+    color: var(--orange);
+}
+.list ul{
+    gap: 70px;
+}
+.list a{
+    text-decoration: none;
+    color: var(--white);
+    list-style-type:none ;
+}
+.list a:hover{
+    color: var(--black);
+}
+#s3{
+    font-size: 45px;
+    font-weight: 800px;
+}
+#s11{
+    position: absolute;
+    bottom:450px;
+}
+#s22{
+    position: absolute;
+    bottom:320px;
+right: 800px;
+}
+#s33{
+    position: absolute;
+    bottom: 450px;
+    left: 1100px;
+}
+.dot3 a{
+    background-color:var(--primary) ;
+    color: var(--white);
+    padding-top: 7px;
+    padding-bottom: 7px;
+    padding-left: 7px;
+    padding-right: 7px;
+    border-radius: 15px;
+    text-decoration: none;
+}
+.dot3{
+    margin-top: 32px;
+}
+.bord a{
+    background-color:var(--primary);
+}
+.stay{
+   
+    background-color: var(--black);
+
+}
+.inputk input{
+    border: none;
+    outline: none;
+    border-radius: 8px;
+}
+.inputk button{
+    background-color: var(--orange);
+    color: var(--white);
+    border: none;  
+    border-radius: 7px;
+}
